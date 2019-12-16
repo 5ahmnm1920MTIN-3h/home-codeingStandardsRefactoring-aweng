@@ -13,9 +13,11 @@ Vorteile
 <ul>Der Code ist einfacher wieder verwendbar.</ul>
 </li>
 Nachteile
+<li>
 <ul>Mehr Zeitaufwand, für keine sichtbaren Verbesserungen am Endprodukt.</ul>
 <ul>eventuelle Fehler, verursacht durch refactoring.
 </ul>
+</li>
 
 # Was sind die Refactoring-Schritte?
 1) Man definiert einen Testcase
