@@ -7,17 +7,17 @@ Refactoring dient dazu den Code zu verbessern. Man säubert den Code nachdem er 
 # Welche Vorteile/Nachteile birgt Refactoring?
 Vorteile
 <br>
-<li>
+
 <ul>Der Code ist einfacher zu lesen.</ul>
 <ul>Der Code ist verständlicher.</ul>
 <ul>Der Code ist einfacher wieder verwendbar.</ul>
-</li>
+
 Nachteile
-<li>
+
 <ul>Mehr Zeitaufwand, für keine sichtbaren Verbesserungen am Endprodukt.</ul>
 <ul>eventuelle Fehler, verursacht durch refactoring.
 </ul>
-</li>
+
 
 # Was sind die Refactoring-Schritte?
 1) Man definiert einen Testcase
