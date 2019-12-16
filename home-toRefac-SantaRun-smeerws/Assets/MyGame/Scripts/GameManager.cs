@@ -4,11 +4,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
     public static GameManager instance;
     public GameObject gameOverPanel;
     public Text scoreText;
-    string defaultText;
     int score = 0;
 
     private void Awake()
