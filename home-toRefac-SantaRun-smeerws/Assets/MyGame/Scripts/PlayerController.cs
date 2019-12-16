@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,12 +13,6 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -28,28 +20,20 @@ public class PlayerController : MonoBehaviour
         {
             if (grounded == true)
             {
-                jump();
+                Jump();
             }
-
-
-
-
         }
     }
 
     bool grounded;
     bool gameOver = false;
 
-    void jump()
+    void Jump()
     {
         grounded = false;
-
         rb.velocity = Vector2.up * jumpForce;
-
         anim.SetTrigger("Jump");
-
         GameManager.instance.IncrementScore();
-        Debug.Log("DeleteMe");
     }
 
     private bool SetGameOverTrue()
@@ -57,7 +41,8 @@ public class PlayerController : MonoBehaviour
         return true;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)   {
+    private void OnCollisionEnter2D(Collision2D collision)   
+    {
         if(collision.gameObject.tag == "Ground")
         {
             grounded = true;}
@@ -72,8 +57,4 @@ public class PlayerController : MonoBehaviour
             gameOver = SetGameOverTrue();
         }
     }
-
-
-
-
 }
