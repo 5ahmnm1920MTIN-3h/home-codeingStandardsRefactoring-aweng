@@ -61,43 +61,43 @@ Unter einem Code-Smell versteht man einen Code, welcher schlecht strukturiert is
 Zum Beispiel: zu lange Methoden, Magical Strings, Magical Values
 
 # Recherche von 10 Code Smells die Eure Projekt betreffen können, inkl. Beschreibung und Beispiel.
-Kommentare
+1) Kommentare
 <br>
 Man sollte zu viele Kommentare veremeiden, da diese nur eine Unterstützung sein sollten.
 
-Nichtssagende Namen
+2) Nichtssagende Namen
 <br>
 Sowohl Variablen, als auch Klassen sollten so benannt werden, dass man davon die Funktion ablesen kann
 
-Doppelter Code
+3) Doppelter Code
 <br>
 Man sollte vermeiden, dass ein Code zweimal vorkommt.
 
-Lange Methode
+4) Lange Methode
 <br>
 Man sollte zu lange Methoden, aufgrund der Verständlichkeit und Übersichtlichekeit vermeiden.
 
-Kurze Namen
+5) Kurze Namen
 <br>
 Man sollte Variablen, Klassen oder Methoden mit einen beschreibenden Namen bennenen und nicht nur mit einzelnen Buchstaben.
 
-Lange Namen
+6) Lange Namen
 <br>
 Jedoch sollten, Variablen, Klassen oder Methoden auch keine  viel zu lange Namen haben.
 
-Tiefe Verschaftelungen
+7) Tiefe Verschaftelungen
 <br>
 Man sollte Verschachtelungen vermeiden, da diese den Code unverständlich und unlesbar machen.
 
-Leerzeilen
+8) Leerzeilen
 <br>
 Zu viele Leerzeilen sollten gelöscht werden, um den unnötigen Verbrauch von Zeile zu vermeiden.
 
-Unbenutzter Code
+9) Unbenutzter Code
 <br>
 Man sollte vermeiden unbenutzten Code im Projekt zu haben, da dieser den Code unverständlicher macht,nur unnötig verlängert und Speicher verbraucht.
 
-Falsche Klammern
+10) Falsche Klammern
 <br>
 Es passiert schnell, dass man die Klammern im Code falsch setzt oder vergisst. Dies kann zu einem fehlerhaften Code führen und sollte auf alle Fälle vermieden werden.
 
