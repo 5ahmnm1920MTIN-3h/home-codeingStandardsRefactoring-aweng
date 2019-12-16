@@ -6,14 +6,16 @@ Refactoring dient dazu den Code zu verbessern. Man säubert den Code nachdem er 
 
 # Welche Vorteile/Nachteile birgt Refactoring?
 Vorteile
-Der Code ist einfacher zu lesen.
-Der Code ist verständlicher.
-Der Code ist einfacher wieder verwendbar.
-
+<br>
+<li>
+<ul>Der Code ist einfacher zu lesen.</ul>
+<ul>Der Code ist verständlicher.</ul>
+<ul>Der Code ist einfacher wieder verwendbar.</ul>
+</li>
 Nachteile
-Mehr Zeitaufwand, für keine sichtbaren Verbesserungen am Endprodukt
-eventuelle Fehler, verursacht durch refactoring.
-
+<ul>Mehr Zeitaufwand, für keine sichtbaren Verbesserungen am Endprodukt.</ul>
+<ul>eventuelle Fehler, verursacht durch refactoring.
+</ul>
 
 # Was sind die Refactoring-Schritte?
 1) Man definiert einen Testcase
@@ -26,22 +28,28 @@ eventuelle Fehler, verursacht durch refactoring.
 
 # Prinzipien von guten Code?
 DRY - Don’t Repeat Yourself
+<br>
 Ist ein Prinzip das besagt, dass man Code-Wiederholungen  vermeiden soll.
 
 KISS - Keep it Simple, Stupid
+<br>
 Die Grundaussage dieses Prinzip ist, dass wenn es mehrere Varianten für das selbe Ergebnis gibt, sollte man die einfachste verwenden. 
 
 YAGNI - You Ain’t Gonna Need It
+<br>
 Dieses Prinzip dient dazu, dass man überprüft ob man den Code wirklich für die Funktionalität benötigt, also nicht notwendige Extras sollten entfernt werden.
 
 SoC - Separation of Concerns
+<br>
 Unter diesem Prinzip versteht man, dass verschiedene Aufgaben einer Anwendung in Teillösungen umgesetzt werden.
 
 Principle of least Astonishment
+<br>
 Dieses Prinzip besagt, dass eine Benutzerschnittstelle so ausgelegt werden sollte, dass der Benutzer möglichst wenige Überraschungen erlebt. Dass man z.B. Variablen, Klassen, Methoden zu benennt das deren Funktion beschrieben wird.
 
 
 Single Responsibility Principle
+<br>
 Dieses Prinzip besagt, dass Klassen nur für eine Sache zuständig sein sollten und nicht mehrere Funktionen erfüllen.
 
 
@@ -52,32 +60,42 @@ Zum Beispiel: zu lange Methoden, Magical Strings, Magical Values
 
 # Recherche von 10 Code Smells die Eure Projekt betreffen können, inkl. Beschreibung und Beispiel.
 Kommentare
+<br>
 Man sollte zu viele Kommentare veremeiden, da diese nur eine Unterstützung sein sollten.
 
 Nichtssagende Namen
+<br>
 Sowohl Variablen, als auch Klassen sollten so benannt werden, dass man davon die Funktion ablesen kann
 
 Doppelter Code
+<br>
 Man sollte vermeiden, dass ein Code zweimal vorkommt.
 
 Lange Methode
+<br>
 Man sollte zu lange Methoden, aufgrund der Verständlichkeit und Übersichtlichekeit vermeiden.
 
 Kurze Namen
+<br>
 Man sollte Variablen, Klassen oder Methoden mit einen beschreibenden Namen bennenen und nicht nur mit einzelnen Buchstaben.
 
 Lange Namen
+<br>
 Jedoch sollten, Variablen, Klassen oder Methoden auch keine  viel zu lange Namen haben.
 
 Tiefe Verschaftelungen
+<br>
 Man sollte Verschachtelungen vermeiden, da diese den Code unverständlich und unlesbar machen.
 
 Leerzeilen
+<br>
 Zu viele Leerzeilen sollten gelöscht werden, um den unnötigen Verbrauch von Zeile zu vermeiden.
 
 Unbenutzter Code
+<br>
 Man sollte vermeiden unbenutzten Code im Projekt zu haben, da dieser den Code unverständlicher macht,nur unnötig verlängert und Speicher verbraucht.
 
 Falsche Klammern
+<br>
 Es passiert schnell, dass man die Klammern im Code falsch setzt oder vergisst. Dies kann zu einem fehlerhaften Code führen und sollte auf alle Fälle vermieden werden.
 
