@@ -64,6 +64,7 @@ Zum Beispiel: zu lange Methoden, Magical Strings, Magical Values
 Kommentare
 <br>
 Man sollte zu viele Kommentare veremeiden, da diese nur eine Unterstützung sein sollten.
+
 // Calling function 
         Message(msg);
         
@@ -71,11 +72,13 @@ Man sollte zu viele Kommentare veremeiden, da diese nur eine Unterstützung sein
 Nichtssagende Namen
 <br>
 Sowohl Variablen, als auch Klassen sollten so benannt werden, dass man davon die Funktion ablesen kann
+
 public void _Rst1(){}
 
 Doppelter Code
 <br>
 Man sollte vermeiden, dass ein Code zweimal vorkommt.
+
 protected void SetBlueBoxVisibility(bool blueBoxVisibility)
     {
         Project project = LoadProject();
@@ -97,6 +100,7 @@ protected void SetBlueBoxVisibility(bool blueBoxVisibility)
 Lange Methode
 <br>
 Man sollte zu lange Methoden, aufgrund der Verständlichkeit und Übersichtlichekeit vermeiden.
+
 public void SetResult()
 {
 	float a = float.Parse(ip_varA.text);
@@ -114,16 +118,19 @@ public void SetResult()
 Kurze Namen
 <br>
 Man sollte Variablen, Klassen oder Methoden mit einen beschreibenden Namen bennenen und nicht nur mit einzelnen Buchstaben.
+
 public GameObject = gO;
 
 Lange Namen
 <br>
 Jedoch sollten, Variablen, Klassen oder Methoden auch keine  viel zu lange Namen haben.
+
 public string = thisVariableIsAStringAndIsItsNameIsMaybeABitTooLong;
 
 Tiefe Verschaftelungen
 <br>
 Man sollte Verschachtelungen vermeiden, da diese den Code unverständlich und unlesbar machen.
+
 do 
 {   
     statement(s);
@@ -143,6 +150,7 @@ while(condition);
 Leerzeilen
 <br>
 Zu viele Leerzeilen sollten gelöscht werden, um den unnötigen Verbrauch von Zeile zu vermeiden.
+
 private void FixedUpdate()
     {
         if (scroll)
@@ -158,6 +166,7 @@ private void FixedUpdate()
 Unbenutzter Code
 <br>
 Man sollte vermeiden unbenutzten Code im Projekt zu haben, da dieser den Code unverständlicher macht,nur unnötig verlängert und Speicher verbraucht.
+
 public int Add(int x, int y, int z)
 {
     return x + y;
@@ -166,5 +175,6 @@ public int Add(int x, int y, int z)
 Falsche Klammern
 <br>
 Es passiert schnell, dass man die Klammern im Code falsch setzt oder vergisst. Dies kann zu einem fehlerhaften Code führen und sollte auf alle Fälle vermieden werden.
+
 private void FixedUpdate(
 
