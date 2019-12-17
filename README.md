@@ -64,21 +64,22 @@ Zum Beispiel: zu lange Methoden, Magical Strings, Magical Values
 Kommentare
 <br>
 Man sollte zu viele Kommentare veremeiden, da diese nur eine Unterstützung sein sollten.
-
+```c#
 // Calling function 
         Message(msg);
-        
+```        
         
 Nichtssagende Namen
 <br>
 Sowohl Variablen, als auch Klassen sollten so benannt werden, dass man davon die Funktion ablesen kann
-
+```c#
 public void _Rst1(){}
+```
 
 Doppelter Code
 <br>
 Man sollte vermeiden, dass ein Code zweimal vorkommt.
-
+```c#
 protected void SetBlueBoxVisibility(bool blueBoxVisibility)
     {
         Project project = LoadProject();
@@ -96,11 +97,12 @@ protected void SetBlueBoxVisibility(bool blueBoxVisibility)
         ShowRedBoxPanel(redBoxVisibility);
         RaiseStatusUpdated();
     }
+```
 
 Lange Methode
 <br>
 Man sollte zu lange Methoden, aufgrund der Verständlichkeit und Übersichtlichekeit vermeiden.
-
+```c#
 public void SetResult()
 {
 	float a = float.Parse(ip_varA.text);
@@ -114,23 +116,26 @@ public void SetResult()
 	Btn_Reset.interactable = true;
 	Debug.Log (“Reset Btn pressed”)
 }
+```
 
 Kurze Namen
 <br>
 Man sollte Variablen, Klassen oder Methoden mit einen beschreibenden Namen bennenen und nicht nur mit einzelnen Buchstaben.
-
+```c#
 public GameObject = gO;
+```
 
 Lange Namen
 <br>
 Jedoch sollten, Variablen, Klassen oder Methoden auch keine  viel zu lange Namen haben.
-
+```c#
 public string = thisVariableIsAStringAndIsItsNameIsMaybeABitTooLong;
+```
 
 Tiefe Verschaftelungen
 <br>
 Man sollte Verschachtelungen vermeiden, da diese den Code unverständlich und unlesbar machen.
-
+```c#
 do 
 {   
     statement(s);
@@ -146,11 +151,12 @@ do
     while(condition);
 }
 while(condition);
+```
 
 Leerzeilen
 <br>
 Zu viele Leerzeilen sollten gelöscht werden, um den unnötigen Verbrauch von Zeile zu vermeiden.
-
+```c#
 private void FixedUpdate()
     {
         if (scroll)
@@ -162,19 +168,22 @@ private void FixedUpdate()
 
         }
     }
-    
+```
+
 Unbenutzter Code
 <br>
 Man sollte vermeiden unbenutzten Code im Projekt zu haben, da dieser den Code unverständlicher macht,nur unnötig verlängert und Speicher verbraucht.
-
+```c#
 public int Add(int x, int y, int z)
 {
     return x + y;
 }
+```
 
 Falsche Klammern
 <br>
 Es passiert schnell, dass man die Klammern im Code falsch setzt oder vergisst. Dies kann zu einem fehlerhaften Code führen und sollte auf alle Fälle vermieden werden.
-
+```c#
 private void FixedUpdate(
+```
 
