@@ -190,3 +190,10 @@ private void FixedUpdate(
 <br>
 <br>
 code examples ©kkoenig
+
+##Testcases
+Steuerung des Charakters funktioniert nach Umbennenung der Jump-Methode im PlayerController-Script immmer noch.
+<br>
+Spiel funktioniert nach löschen von magical string im GameManger-Script immer noch.
+<br>
+Deleted unused Methods im Obstacle-Script, surprise es funktioniert noch.
